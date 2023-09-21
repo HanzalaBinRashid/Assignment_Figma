@@ -3,6 +3,7 @@ import 'package:navigationbar/GrosaryHome.dart';
 import 'package:navigationbar/Products.dart';
 import 'package:navigationbar/pageview.dart';
 import 'package:navigationbar/HomeScreen.dart';
+import 'package:navigationbar/product_Detail.dart';
 //import 'package:navigationbar/Card.dart';
 import 'card.dart';
 import 'futureAndStream.dart';
@@ -10,7 +11,7 @@ import 'package:navigationbar/Categories.dart';
 import 'package:navigationbar/categories_pg2.dart';
 
 void main() => runApp(MaterialApp(
-      home: HomeScreen(),
+      home: Products(),
       debugShowCheckedModeBanner: false,
     ));
 

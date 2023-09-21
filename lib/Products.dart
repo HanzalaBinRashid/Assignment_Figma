@@ -1,6 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:navigationbar/categories_pg2.dart';
+import 'package:navigationbar/product_Detail.dart';
 
 class Products extends StatefulWidget {
   const Products({super.key});
@@ -155,7 +156,7 @@ class _ProductsState extends State<Products> {
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) =>
-                                              categories_pg2()),
+                                              ProductDetail2()),
                                     );
                                   },
                                 
